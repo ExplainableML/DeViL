@@ -1,0 +1,28 @@
+name: devil
+channels:
+  - pytorch
+  - nvidia
+  - huggingface
+  - conda-forge
+  - defaults
+dependencies:
+  - ftfy=6.1.1
+  - matplotlib=3.7.1
+  - openjdk=11.0.15
+  - python=3.10.9
+  - pytorch=2.0.0
+  - pytorch-cuda=11.8
+  - scipy=1.10.1
+  - sentencepiece=0.1.97
+  - torchvision=0.15.0
+  - transformers=4.26.1
+  - wandb=0.14.0
+  - webdataset=0.2.48
+  - pip:
+      - bert_score==0.3.13
+      - easydict==1.10
+      - evaluate==0.4.0
+      - pycocoevalcap==1.2
+      - pycocotools==2.0.6
+      - timm==0.8.13.dev0
+      - git+https://github.com/openai/CLIP.git
